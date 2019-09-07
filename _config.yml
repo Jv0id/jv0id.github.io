@@ -30,7 +30,7 @@ gems: [jekyll-paginate]
 # 就是没有文章的时候显示的提示，未加无分类前:no-category-index,未加无标签前:no-tag-index,未加无归档前:no-archive
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'createNew_MDFile', 'no-archive', '/tag/no-tag-index', '/categories/no-category-index','old-reference']
 
-github_username: zydemo
+github_username: jv0id
 
 # Build settings
 markdown: kramdown
@@ -39,6 +39,6 @@ excerpt_separator: "<!-- more -->"
 baidu_analysis: 05d061c4501320058e73b02c1bd8b1b8
 
 # gitment
-comment_gitment_repo: jv0id.github.io
+#comment_gitment_repo: jv0id.github.io
 #comment_gitment_clientId: 0f1d860f67e66224d798
 #comment_gitment_clientSecret: cb2ad5808b1089c1d84244427fc5387bb4ed57ac
