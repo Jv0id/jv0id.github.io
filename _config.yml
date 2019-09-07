@@ -1,16 +1,16 @@
 # Site settings
-name: Jv0id的个人笔记
+name: 个人笔记
 email: jv0id@foxmail.com
 author: jv0id
 url: https://jv0id.github.io
 resume_site: ''
 github: https://jv0id.github.io/
 baseurl: ''
-description: 自己平时记录的笔记
+description: 平时记录
 meta_description: 只好色，不花心。说脏话，不骂人。耍流氓，懂礼貌。
 motto: 入我相思门，知我相思苦。
 banner: 学而不思则罔，思而不学则殆。
-revolvermaps: 5z6yv4ukca1
+revolvermaps: ''
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
