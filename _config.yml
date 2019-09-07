@@ -8,7 +8,7 @@ github: https://jv0id.github.io/
 baseurl: ''
 description: 自己平时记录的笔记
 meta_description: 只好色，不花心。说脏话，不骂人。耍流氓，懂礼貌。
-motto: It's our wits that make us men.
+motto: 入我相思门，知我相思苦。
 banner: 学而不思则罔，思而不学则殆。
 revolvermaps: 5z6yv4ukca1
 
@@ -28,8 +28,7 @@ gems: [jekyll-paginate]
 
 
 # 就是没有文章的时候显示的提示，未加无分类前:no-category-index,未加无标签前:no-tag-index,未加无归档前:no-archive
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'createNew_MDFile', 'no-archive',
-'/tag/no-tag-index', '/categories/no-category-index','old-reference']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'createNew_MDFile', 'no-archive', '/tag/no-tag-index', '/categories/no-category-index','old-reference']
 
 github_username: zydemo
 
