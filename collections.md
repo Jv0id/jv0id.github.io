@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 工具网站收集
-permalink: /collection/
+permalink: /collections/
 ---
 
 * content
