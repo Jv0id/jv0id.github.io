@@ -1,0 +1,60 @@
+
+<div class="pagination text-align">
+    <div class="btn-group">
+        
+
+        {% if paginator.total_pages > 1 %}
+	        {% if paginator.page == 1 %}
+	        	<a class="btn btn-outline">首页</a>        
+	        {% else %}
+	        	<a href="/" class="btn btn-outline">首页</a>
+	        {% endif %}
+	        <!-- 如果有前一页的页号 -->
+	        {% if paginator.previous_page %}
+		        <!-- 如果前一页的页号是1 -->
+		        {% if paginator.previous_page == 1 %}
+			        <a href="/" class="btn btn-outline">&laquo;</a>
+			    {% else %}
+       				<a href="/page{{paginator.previous_page}}" class="btn btn-outline">&laquo;</a>
+        		{% endif %}
+        	{% else %}
+        		<button disabled="disabled" href="javascript:;" class="btn btn-outline">&laquo;</button>
+        	{% endif %}
+	        <!-- 如果当前页号是1 -->
+	        {% if paginator.page == 1 %}
+        		<a href="javascript:;" class="active btn btn-outline">1</a>
+        	{% else %}
+        		<a href="/" class="btn btn-outline">1</a>
+        	{% endif %}
+
+        	{% for count in (2..paginator.total_pages) %}
+        	{% if count == paginator.page %}
+        		<a href="javascript:;" class="active btn btn-outline">{{count}}</a>
+        	{% else %}
+        		<a href="/page{{count}}" class="btn btn-outline">{{count}}</a>
+        	{% endif %}
+        	{% endfor %}
+
+        	{% if paginator.next_page %}
+		        <a href="/page{{paginator.next_page}}" class="btn btn-outline">&raquo;</a>
+		        <a href="{{ site.baseurl}}/page{{paginator.total_pages}}" class="btn btn-outline">末页</a> 
+        	{% else %}
+		        <button disabled="disabled" href="javascript:;" class="btn btn-outline">&raquo;</button>
+		        <a class="btn btn-outline">末页</a>
+        	{% endif %}
+        		<a class="btn btn-outline disabled">第{{paginator.page}}页 / 共{{paginator.total_pages}}页</a>
+        <!-- 只有一页的情况 -->
+        {% else %}
+        	<!-- 如果有文章才会显示 -->
+        	{% if paginator.posts %}
+        		<a class="btn btn-outline">首页</a>
+	        	<button disabled="disabled" href="javascript:;" class="btn btn-outline">&laquo;</button>
+	        	<a href="javascript:;" class="active btn btn-outline">1</a>
+	        	<button disabled="disabled" href="javascript:;" class="btn btn-outline">&raquo;</button>
+	        	<a class="btn btn-outline">末页</a>
+	        	<a class="btn btn-outline disabled">第{{paginator.page}}页 / 共{{paginator.total_pages}}页</a>
+	        {% endif %}	        
+
+    </div>
+</div>
+{% endif %}

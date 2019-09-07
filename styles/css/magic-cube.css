@@ -1,0 +1,115 @@
+
+.magic-container{
+	width: 120px;
+	height: 120px;
+	/*border: 1px solid #000;*/
+	margin: 150px auto;
+	/*设置视距，看的远一点*/
+	perspective: 20000px;
+
+}
+.magic-box{
+	width: 120px;
+	height: 120px;
+	/*控制子元素保持3D效果*/
+	transform-style: preserve-3d;
+	/*设置盒子旋转-测试代码*/
+	/*transform: rotateX(45deg) rotateY(45deg);*/
+	/*让魔方动起来*/	
+	animation: ro 10s linear infinite;
+	/*animation-direction规定是否应该轮流反向播放动画*/
+	animation-direction: alternate;
+
+}
+/*设置动画*/
+@keyframes ro{
+	0%{
+		transform: rotateX(45deg) rotateY(45deg);
+	}
+	100%{
+		transform: rotateX(360deg) rotateY(360deg);
+	}
+}
+.magic-box-page{
+	width: 120px;
+	height: 120px;
+	/*初始化位置*/
+	position: absolute;
+	/*设置3d效果*/
+	transform-style: preserve-3d;
+}
+.top{
+	/*background-color: red;*/
+	/*向上移动60px*/
+	transform: translateZ(60px);
+}
+.bottom{
+	/*background-color: green;*/
+	transform: translateZ(-60px) rotateX(180deg);
+}
+.left{
+	/*background-color: orange;*/
+	transform: translateX(-60px) rotateY(-90deg);
+}
+.right{
+	/*background-color: pink;*/
+	transform: translateX(60px) rotateY(90deg);
+}
+.before{
+	/*background-color: blue;*/
+	transform: translateY(60px) rotateX(-90deg);
+}
+.after{
+	/*background-color: yellow;*/
+	transform: translateY(-60px) rotateX(90deg);
+}
+.magic-box-page div:nth-child(1){
+	animation: a1 4.5s ease-in;			
+}
+.magic-box-page div:nth-child(2){
+	animation: a1 4.5s ease-in 0.5s;
+}
+.magic-box-page div:nth-child(3){
+	animation: a1 4.5s ease-in 1s;
+}
+.magic-box-page div:nth-child(4){
+	animation: a1 4.5s ease-in 1.5s;
+}
+.magic-box-page div:nth-child(5){
+	/*加上infinite第五个小面会不停的动*/
+	/*animation: a1 4.5s ease-in 2s infinite;*/
+	animation: a1 4.5s ease-in 2s;
+}
+.magic-box-page div:nth-child(6){
+	animation: a1 4.5s ease-in 2.5s;
+}
+.magic-box-page div:nth-child(7){
+	animation: a1 4.5s ease-in 3s;
+}
+.magic-box-page div:nth-child(8){
+	animation: a1 4.5s ease-in 3.5s;
+}
+.magic-box-page div:nth-child(9){
+	animation: a1 4.5s ease-in 4s;
+}
+/*每个小面的九个图片的动画*/
+@keyframes a1{			
+	/*不动*/
+	0%{
+		/*scale缩放比例*/
+		transform: translateZ(0px) scale(1) rotateZ(0deg);
+	}
+	/*飞出去,飞没了*/
+	20%{
+		/*scale缩放比例，边飞边旋转*/
+		transform: translateZ(90px) scale(0.5) rotateZ(180deg);
+	}
+	
+	/*飞回来*/
+	80%{
+		transform: translateZ(90px) scale(0.5) rotateZ(720deg);
+	}
+	100%{
+		transform: translateZ(0px) scale(1) rotateZ(0deg);
+	}
+}

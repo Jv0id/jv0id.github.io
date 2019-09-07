@@ -1,0 +1,26 @@
+<div id="navigation">
+  {% if page.title == "推荐博客" %}
+    <h1>推荐目录</h1>
+  {% endif %}
+  {% if page.title == "我的书单" %}
+    <h1>书单目录</h1>
+   {% endif %}
+   {% if page.title == "公共文件" %}
+    <h1>文件目录</h1>
+  {% endif %}
+  {% if page.title == "Python课程" %}
+    <h1>课程目录</h1>
+  {% endif %}
+  {% if page.title != "推荐博客" and page.title != "我的书单" and page.title != "公共文件" and page.title != "Python课程" %}
+    <h1>文章目录</h1>
+  {% endif %}
+
+  <ul class="nav sidenav">
+  </ul>
+  <div style="height: 200px;width: 200px;">
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i={{ site.revolvermaps }}&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"> 
+    </script>
+  </div>
+    
+</div>
+

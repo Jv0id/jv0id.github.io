@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="index">
+
+    {% include header.html %}
+    {% include docs_header.html %}
+    {% if page.title %}
+      {% include banner.html %}
+    {% endif %}
+
+    {{ content }}
+    
+    <!-- To Top ZY 02/20/2019 start -->
+    <!-- Add back to top button -->
+    <div>
+      <button id="myBtn" title="Back to top" style="display: none;">Top</button>
+    </div>
+
+    <!-- 快速滑动的效果 -->
+    <!-- <div>
+      <button onclick="topFunction()" id="myBtn" title="Back to top" style="display: block;">Top</button>
+    </div> -->
+      <!-- <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script> -->
+
+
+      <script type="text/javascript">
+      	// 页面加载后执行
+      	window.onload = function(){
+	    	var totop = document.getElementById("myBtn");
+     		// 页面刷新的时候先隐藏
+     		totop.style.display = "none";     		
+		    $("#myBtn").click(function(){	      
+	    	$('html,body').animate({scrollTop: '0px'}, 500);
+	    	});
+	    	// When the user scrolls down 20px from the top of the document, show the button
+		    window.onscroll = function() {scrollFunction()};
+		    function scrollFunction() {	    	
+		    	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    		// document.getElementById("myBtn").style.display = "block";
+		    		$('#myBtn').fadeIn();
+		     	} else {
+		     		// document.getElementById("myBtn").style.display = "none";
+		     		$('#myBtn').fadeOut();
+		     	}
+		    }
+		}
+
+      </script>
+
+
+      <!-- 返回顶部增加了缓慢效果 -->
+     <!-- <script type="text/javascript"> 
+     	// 页面加载后执行
+     	// $(document).ready(function topFunction(){
+     	window.onload = function topFunction(){
+     		// 1、找到页面中的按钮
+     		var totop = document.getElementById("myBtn");
+     		// 页面刷新的时候先隐藏
+     		totop.style.display = "none";
+     		var timer = null;
+     		// 2、给按钮绑定点击事件
+     		totop.onclick = function(){
+     			// 周期性定时
+     			timer = setInterval(function(){     				
+     				// 3、获取滚动条距离浏览器顶端的距离
+	     			var backTop = document.documentElement.scrollTop || document.body.scrollTop;
+	     			// 让滚动条从快到慢的过渡效果
+	     			var speedTop = backTop / 5;
+	     			document.documentElement.scrollTop = backTop - speedTop;
+	     			// 如果滑动到顶部停止计时器
+	     			if(backTop == 0){
+	     				clearInterval(timer)
+	     			}
+     			},30);     			
+     		}
+     		window.onscroll =  function(){
+     			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        		totop.style.display = "block";
+	        	} else {
+	          		totop.style.display = "none";
+	        		}
+     		}
+     	}
+     </script> -->
+     
+
+    <!--ToTop ZY 02/20/2019 end -->
+
+    <!--default search js Added by zy 22/02/2019 start-->
+    <script type="text/javascript">
+  $(function() {
+      $.ajax({
+          url: "/search.xml",
+          dataType: "xml",
+          success: function( xmlResponse ) {
+             var data = $( "article", xmlResponse ).map(function() {
+                  return {
+                      value: $( "title", this ).text() + ", " +
+                          ( $.trim( $( "date", this ).text() ) ),
+                      desc: $("description", this).text(),
+                      url: $("url", this).text()
+                  };
+              }).get();
+
+              $( "#j_search" ).autocomplete({
+                  source: data,
+                  minLength: 0,
+                  select: function( event, ui ) {
+                    window.location.href = ui.item.url;
+                  }
+              });
+          }
+      });
+  });
+</script>
+<!--default search js Added by zy 22/02/2019 end-->
+    
+    {% include footer.html %}
+
+  </body>
+</html>
