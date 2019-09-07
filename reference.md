@@ -8,6 +8,60 @@ permalink: /reference/
 {:toc}
 
 
+## 工具
+
+* [JSON格式化](https://www.json.cn/)
+
+    JSON格式化。
+
+* [JSON格式化](http://www.bejson.com/)
+
+    JSON格式化，可转义。
+
+* [正则表达式](http://tool.oschina.net/regex/)
+
+    在线正则表达式测试
+
+* [正则表达式](https://regex101.com/)
+
+    这个功能更强大一点，能清楚的区分出贪婪和懒惰正则。
+
+* [时间戳](https://tool.lu/timestamp/)
+
+    时间戳转换
+
+- [压缩 png 或 jpg](https://tinypng.com/)
+
+    用于压缩 png 或 jpg 的在线工具
+
+* [VPS 测试ping](http://ping.pe/)
+
+    简单方便的测试网络
+
+* [google fonts](https://fonts.google.com/)
+
+## mac软件
+
+* [Mac 破解软件](https://www.waitsun.com/)
+
+    各种破解软件下载网站
+    
+* [Mac 小众软件](https://www.appinn.com/category/mac/)
+    
+    小众软件
+
+## VPS
+
+* [美国VPS](https://idc.wiki/clientarea.php?action=products)
+
+    低价VPS
+    
+## 博客收藏
+
+* [爱码士峡谷](http://www.jpjny.xyz)
+
+    自己的博客
+
 Markdown在线编辑器								{#markdown}
 -----------------------------------------------------------------
 + [Markdown在线编辑器 MdEditor](https://www.mdeditor.com/)
@@ -19,42 +73,6 @@ Markdown在线编辑器								{#markdown}
 + [天天生鲜-功能不全好理解](https://github.com/shihao1010/tiantianshengxian)
 
 + [在线测网速网站](http://www.speedtest.cn/)
-
-
-jekyll相关										{#jekyll}
------------------------------------------------------------------
-+ [用jekyll制作高大上的网站（二）—实际应用](http://www.cnblogs.com/strick/p/5484779.html)
-
-+ [使用 GitHub, Jekyll 打造自己的免费独立博客](https://blog.csdn.net/on_1y/article/details/19259435)
-
-+ [为Jekyll 加上简单搜索功能(不错的主题博客)](https://blog.fooleap.org/jekyll-simple-search.html)
-
-+ [为Jekyll添加静态搜索](http://kingauthur.info/2012/12/03/the-things-about-jekyll/)
-
-+ [使用Jekyll在Github上搭建个人博客（分页实现）](https://segmentfault.com/a/1190000000406015)
-
-+ [为Jekyll博客添加小功能](https://blog.csdn.net/ds19991999/article/details/81293467)
-
-+ [Jekyll 显示每一年的文章数](https://blog.fooleap.org/posts-size-for-each-year-in-jekyll.html)
-
-+ [Jekyll博客添加Valine评论](https://www.cnblogs.com/gr4ss/p/9998600.html)
-
-+ [Valine: 独立博客评论系统](https://deserts.io/diy-a-comment-system/)
-
-+ [Jekyll博客添加Gitment评论系统](https://blog.csdn.net/zhangquan2015/article/details/80178794)
-
-+ [Gitment：使用 GitHub Issues 搭建评论系统](https://imsun.net/posts/gitment-introduction/)
-
-
-
-关于成人教育									{#education}
------------------------------------------------------------------
-
-+ [北京教育考试院-成考成招](https://www.bjeea.cn/html/ckcz/)
-
-+ [学信网](https://www.chsi.com.cn/)
-
-+ [2018年北京市成人高等学校招生专业目录](https://www.bjeea.cn/html/ckcz/zyml/2018/0823/71484.html)
 
 
 邮箱/google					{#mail}
