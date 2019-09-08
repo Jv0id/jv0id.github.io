@@ -19,7 +19,7 @@ layout: default
                         <div class="meta">Posted on <span
                                 class="postdate">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</span> By <a
                                 target="_blank" href="{{site.url}}">{{ site.author }}</a>
-                            {% if page.title != "推荐博客" and page.title != "我的书单" and page.title != "公共文件" and page.title != "英语试题" and page.title != "Python课程" %}
+                            {% if page.title != "关于" and page.title != "博客归档" and page.title != "公共文件" and page.title != "工具网站链接及推荐博客" %}
                             <div class="ca" style="float:right;text-decoration:none;">
                                 个人分类：<a target="_blank" href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{ page.categories }}</a>
                             </div>
@@ -28,7 +28,7 @@ layout: default
                             <div class="ca" style="float:right;color: red;">
                                 <!-- 文字跑马灯效果 -->
                                 <marquee loop="-1" scrollamount="8">
-                                    所有文件仅做学习交流使用，本站不做任何商业用途（版权归原发布者），严禁下载商用，违者必究！
+                                    资料来源互联网，本站不做任何商业用途（版权归原发布者）。。。
                                 </marquee>
                             </div>
                             {% endif %}
