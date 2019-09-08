@@ -23,6 +23,6 @@ permalink: /about/
 * GitHub：[jv0id](https://github.com/jv0id)
 * email：<jv0id@foxmail.com>
 
-## 关于本站
+## 关于本站<http://8void.cn/>
 
 * 自己平时记录的笔记，大部分来自网络。 ~欢迎访问~

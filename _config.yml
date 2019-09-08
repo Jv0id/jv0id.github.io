@@ -2,9 +2,9 @@
 name: 个人笔记
 email: jv0id@foxmail.com
 author: jv0id
-url: http://jvoid.ml/
+url: http://8void.cn/
 resume_site: ''
-github: http://jvoid.ml/
+github: http://8void.cn/
 baseurl: ''
 description: 平时记录
 meta_description: 只好色，不花心。说脏话，不骂人。耍流氓，懂礼貌。
@@ -39,6 +39,6 @@ excerpt_separator: "<!-- more -->"
 baidu_analysis: 05d061c4501320058e73b02c1bd8b1b8
 
 # gitment
-#comment_gitment_repo: jv0id.github.io
+#comment_gitment_repo: http://8void.cn/
 #comment_gitment_clientId: 0f1d860f67e66224d798
 #comment_gitment_clientSecret: cb2ad5808b1089c1d84244427fc5387bb4ed57ac
