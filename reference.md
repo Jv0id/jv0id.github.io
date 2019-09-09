@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 工具网站链接及推荐博客 
-categories: 工具页面
 permalink: /reference/
 ---
 

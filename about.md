@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 关于
-categories: 关于我
 permalink: /about/
 ---
 

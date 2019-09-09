@@ -1,12 +1,12 @@
 <div class="banner">
-  <div class="container">
-    {% if page.categories === '关于我' || page.categories === '' %}
-    {{ site.banner }}
-    {% else %}
-    您的位置：
-    <a href="/">首页</a> »
-    <a href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{page.categories}}</a> >>
-    <a href="{{ '/tag/' | prepend: site.baseurl }}#{{page.tags}}-ref">{{page.tags}}</a> >> 正文
-    {% endif %}
-  </div>
+    <div class="container">
+        {% if page.categories != null %}
+        您的位置：
+        <a href="/">首页</a> »
+        <a href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{page.categories}}</a> »
+        <a href="{{ '/tag/' | prepend: site.baseurl }}#{{page.tags}}-ref">{{page.tags}}</a> » 正文
+        {% else %}
+        {{ site.banner }}
+        {% endif %}
+    </div>
 </div>
