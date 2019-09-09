@@ -6301,6 +6301,7 @@ hr {
   background-color: #fafafa;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #e5e5e5;
+  position: fixed;
 }
 .banner strong {
   color: #555;
@@ -6441,7 +6442,7 @@ hr {
   background: #fff;
   background-color: #fff;
   /*padding: 50px 60px 40px 60px;*/
-  /*Added by zy 02/26/2019*/  
+  /*Added by zy 02/26/2019*/
   /*padding: 30px 60px 40px 60px;*/
   padding: 0 20px 16px 24px;
   margin: 0 -15px;
@@ -6590,7 +6591,7 @@ hr {
 .btn-outline:active {
   color: #fff;
   background-color: #1d365d;
-  border-color: #1d365d;  
+  border-color: #1d365d;
 }
 /* Inverted outline button (white on dark) */
 .btn-outline-inverse {
@@ -7176,11 +7177,11 @@ td.visible-print {
 #searchFrom {background:#fafafa;
   border:1px solid #ccc;
   border-radius:15px;
-  box-shadow:inset 1px 1px 5px rgba(100,100,100,.3); 
+  box-shadow:inset 1px 1px 5px rgba(100,100,100,.3);
  /* padding:3px 5px;*/
  margin-top: 20px;
  margin-right: 10px;
-  height:25px; 
+  height:25px;
   float:right;
 }
 #searchFrom label {display:none;}
@@ -7217,7 +7218,7 @@ td.visible-print {
 
 /* readmore Added by zy 02/23/2019 */
 .more {
-  font-size: 17px;  
+  font-size: 17px;
 }
 .more a{
   color: red;
