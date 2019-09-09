@@ -6301,7 +6301,7 @@ hr {
   background-color: #fafafa;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #e5e5e5;
-  position: fixed;
+  /*position: fixed;*/
 }
 .banner strong {
   color: #555;
