@@ -71,7 +71,7 @@ layout: default
 
           <!--评论功能 JP 2019-09-09-->
 
-          <div id="gitmentContainer"></div>
+         <!-- <div id="gitmentContainer"></div>
           <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
           <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
           <script>
@@ -84,9 +84,9 @@ layout: default
               },
             });
             gitment.render('gitmentContainer');
-          </script>
+          </script>-->
 
-          <!--{% if site.comment_gitment_repo %}
+          {% if site.comment_gitment_repo %}
           <div id="gitmentContainer"></div>
           <link rel="stylesheet" href="{{ '/styles/css/gitment.css' | prepend: site.baseurl }}">
           <script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
@@ -116,7 +116,7 @@ layout: default
             }
             gitment.render('gitmentContainer')
           </script>
-          {% endif %}-->
+          {% endif %}
 
         </div>
       </div>
