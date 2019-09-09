@@ -5,56 +5,56 @@ header: Posts By Category
 ---
 
 <div class="container docs-container">
-    <div class="row">
-        <div class="col-md-3">
-            <div class="sidebar hidden-print" role="complementary">
-                <div id="navigation">
-                    <h1>博客分类</h1>
-                    <!-- 如果有文章才会去显示 -->
-                    {% if site.categories.first[0] == null %}
-                    <ul class="nav sidenav" style="margin: 32px 33% 10px 0px;text-align: center;">
-                        <li>抱歉，暂无分类！</li>
-                    </ul>
-                    {% for category in site.categories %}
-                    <li><a href="#{{ category }}-ref">
-                        {{ category | join: "/" }} <span
-                            style="color: #999999;">({{ site.categories[category].size }})</span>
-                    </a></li>
-                    {% endfor %}
-                    {% else %}
-                    <ul class="nav sidenav">
-                        {% for category in site.categories %}
-                        <li><a href="#{{ category[0] }}-ref">
-                            {{ category[0] | join: "/" }} <span style="color: #999999;">({{ category[1].size }})</span>
-                        </a></li>
-                        {% endfor %}
-                        {% endif %}
-                    </ul>
-                </div>
-            </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        <div id="navigation">
+          <h1>博客分类</h1>
+          <!-- 如果有文章才会去显示 -->
+          {% if site.categories.first[0] == null %}
+          <ul class="nav sidenav" style="margin: 32px 33% 10px 0px;text-align: center;">
+            <li>抱歉，暂无分类！</li>
+          </ul>
+          {% for category in site.categories %}
+          <li><a href="#{{ category }}-ref">
+            {{ category | join: "/" }} <span
+            style="color: #999999;">({{ site.categories[category].size }})</span>
+          </a></li>
+          {% endfor %}
+          {% else %}
+          <ul class="nav sidenav">
+            {% for category in site.categories %}
+            <li><a href="#{{ category[0] }}-ref">
+              {{ category[0] | join: "/" }} <span style="color: #999999;">({{ category[1].size }})</span>
+            </a></li>
+            {% endfor %}
+            {% endif %}
+          </ul>
         </div>
-        <div class="col-md-9" role="main">
-            <div class="panel docs-content">
-                <div class="wrapper">
-                    <div class="home" style="padding-top: 30px;">
-                        <!-- 如果有文章才会去显示 -->
-                        {% if site.categories.first[0] != null %}
-                        {% for category in site.categories %}
-                        <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-                        <ul>
-                            {% assign pages_list = category[1] %}
-                            {% include LessOrMore/pages_list %}
-                        </ul>
-                        {% endfor %}
-                        {% else %}
-                        <div class="nofile" style="margin: 50px auto;text-align: center;">
-                            <img src="/styles/images/img_notfound.png">
-                            <p class="text" style="margin: 30px 0 30px;">抱歉，暂无文章！</p>
-                        </div>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <div class="home" style="padding-top: 30px;">
+            <!-- 如果有文章才会去显示 -->
+            {% if site.categories.first[0] != null %}
+            {% for category in site.categories %}
+            <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+            <ul>
+              {% assign pages_list = category[1] %}
+              {% include LessOrMore/pages_list %}
+            </ul>
+            {% endfor %}
+            {% else %}
+            <div class="nofile" style="margin: 50px auto;text-align: center;">
+              <img src="/styles/images/img_notfound.png">
+              <p class="text" style="margin: 30px 0 30px;">抱歉，暂无文章！</p>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

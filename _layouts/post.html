@@ -2,109 +2,109 @@
 layout: default
 ---
 <div class="container docs-container">
-    <div class="row">
-        <div class="col-md-3">
-            <div class="sidebar hidden-print" role="complementary">
-                {% include lefttree.html %}
-            </div>
-        </div>
-        <div class="col-md-9" role="main">
-            <div class="panel docs-content">
-                <div class="wrapper">
-                    <header class="post-header">
-                        <h1 class="post-title">{{ page.title }}</h1>
-                        <!--
-                          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-                        -->
-                        <div class="meta">Posted on <span
-                                class="postdate">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</span> By <a
-                                target="_blank" href="{{site.url}}">{{ site.author }}</a>
-                            {% if page.title != "关于" and page.title != "博客归档" and page.title != "公共文件" and page.title != "工具网站链接及推荐博客" %}
-                            <div class="ca" style="float:right;text-decoration:none;">
-                                个人分类：<a target="_blank" href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{ page.categories }}</a>
-                            </div>
-                            {% endif %}
-                            {% if page.title == "公共文件" %}
-                            <div class="ca" style="float:right;color: red;">
-                                <!-- 文字跑马灯效果 -->
-                                <marquee loop="-1" scrollamount="8">
-                                    资料来源互联网，本站不做任何商业用途（版权归原发布者）。。。
-                                </marquee>
-                            </div>
-                            {% endif %}
-<!--                            {% if page.title == "Python课程" %}-->
-<!--                            <div class="ca" style="float:right;color: red;">-->
-<!--                                &lt;!&ndash; 文字跑马灯效果 &ndash;&gt;-->
-<!--                                <marquee loop="-1" scrollamount="8">-->
-<!--                                    所有课件仅做学习交流使用，视频来源网络，本站不做任何商业用途（版权归原发布者），严禁下载商用，违者必究！-->
-<!--                                </marquee>-->
-<!--                            </div>-->
-<!--                            {% endif %}-->
-                        </div>
-                        <br/>
-                    </header>
-                    <article class="post-content">
-                        {{ content }}
-                    </article>
-                    <!-- added by zy 2019/03/02 -->
-                    <br>
-                    {% if page.title != "推荐博客" and page.title != "我的书单" and page.title != "公共文件" and page.title !=
-                    "Python课程" %}
-                    <br>
-                    <hr style="border-top:3px solid #2c538f;">
-                    <div><b>上一篇：</b>
-                        {% if page.previous %}
-                        <b><a href="{{ page.previous.url }}" style="color: #3dd07d;">{{ page.previous.title }}</a></b>
-                        {% else %}
-                        没有了
-                        {% endif %}
-                    </div>
-                    <br>
-                    <div><b>下一篇：</b>
-                        {% if page.next %}
-                        <b><a href="{{ page.next.url }}" style="color: #3dd07d;">{{ page.next.title }}</a></b>
-                        {% else %}
-                        没有了
-                        {% endif %}
-                    </div>
-                    {% endif %}
-                    <hr style="border-top:3px solid #2c538f;">
-
-                    <!--{% if site.comment_gitment_repo %}
-                    <div id="gitmentContainer"></div>
-                    <link rel="stylesheet" href="{{ '/styles/css/gitment.css' | prepend: site.baseurl }}">
-                    <script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
-                    <script>
-                        var title_length = '{{ page.title }}'.length
-                        if (title_length < 50 && '{{ page.title }}'.indexOf(",") == -1) {
-                            var gitment = new Gitment({
-                                id: '{{ page.title }}',
-                                owner: '{{site.github_username}}',
-                                repo: '{{site.comment_gitment_repo}}',
-                                oauth: {
-                                    client_id: '{{site.comment_gitment_clientId}}',
-                                    client_secret: '{{site.comment_gitment_clientSecret}}',
-                                },
-                            });
-                        } else {
-                            var gitment = new Gitment({
-                                id: '{{ page.date }}',
-                                title: '{{ page.title }}',
-                                owner: '{{site.github_username}}',
-                                repo: '{{site.comment_gitment_repo}}',
-                                oauth: {
-                                    client_id: '{{site.comment_gitment_clientId}}',
-                                    client_secret: '{{site.comment_gitment_clientSecret}}',
-                                },
-                            });
-                        }
-                        gitment.render('gitmentContainer')
-                    </script>
-                    {% endif %}-->
-
-                </div>
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        {% include lefttree.html %}
+      </div>
     </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <!--
+              <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            -->
+            <div class="meta">Posted on <span
+              class="postdate">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</span> By <a
+              target="_blank" href="{{site.url}}">{{ site.author }}</a>
+              {% if page.title != "关于" and page.title != "博客归档" and page.title != "公共文件" and page.title != "工具网站链接及推荐博客" %}
+              <div class="ca" style="float:right;text-decoration:none;">
+                个人分类：<a target="_blank" href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{ page.categories }}</a>
+              </div>
+              {% endif %}
+              {% if page.title == "公共文件" %}
+              <div class="ca" style="float:right;color: red;">
+                <!-- 文字跑马灯效果 -->
+                <marquee loop="-1" scrollamount="8">
+                  资料来源互联网，本站不做任何商业用途（版权归原发布者）。。。
+                </marquee>
+              </div>
+              {% endif %}
+              <!--                            {% if page.title == "xxx" %}-->
+              <!--                            <div class="ca" style="float:right;color: red;">-->
+              <!--                                &lt;!&ndash; 文字跑马灯效果 &ndash;&gt;-->
+              <!--                                <marquee loop="-1" scrollamount="8">-->
+              <!--                                    严禁下载商用，违者必究！-->
+              <!--                                </marquee>-->
+              <!--                            </div>-->
+              <!--                            {% endif %}-->
+            </div>
+            <br/>
+          </header>
+          <article class="post-content">
+            {{ content }}
+          </article>
+          <br>
+          {% if page.title != "推荐博客" and page.title != "我的书单" and page.title != "公共文件" and page.title !=
+          "Python课程" %}
+          <br>
+          <hr style="border-top:3px solid #2c538f;">
+          <div><b>上一篇：</b>
+            {% if page.previous %}
+            <b><a href="{{ page.previous.url }}" style="color: #3dd07d;">{{ page.previous.title }}</a></b>
+            {% else %}
+            没有了
+            {% endif %}
+          </div>
+          <br>
+          <div><b>下一篇：</b>
+            {% if page.next %}
+            <b><a href="{{ page.next.url }}" style="color: #3dd07d;">{{ page.next.title }}</a></b>
+            {% else %}
+            没有了
+            {% endif %}
+          </div>
+          {% endif %}
+          <hr style="border-top:3px solid #2c538f;">
+
+          <!--去除评论功能 JP 2019-09-09-->
+          <!--{% if site.comment_gitment_repo %}
+          <div id="gitmentContainer"></div>
+          <link rel="stylesheet" href="{{ '/styles/css/gitment.css' | prepend: site.baseurl }}">
+          <script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
+          <script>
+              var title_length = '{{ page.title }}'.length
+              if (title_length < 50 && '{{ page.title }}'.indexOf(",") == -1) {
+                  var gitment = new Gitment({
+                      id: '{{ page.title }}',
+                      owner: '{{site.github_username}}',
+                      repo: '{{site.comment_gitment_repo}}',
+                      oauth: {
+                          client_id: '{{site.comment_gitment_clientId}}',
+                          client_secret: '{{site.comment_gitment_clientSecret}}',
+                      },
+                  });
+              } else {
+                  var gitment = new Gitment({
+                      id: '{{ page.date }}',
+                      title: '{{ page.title }}',
+                      owner: '{{site.github_username}}',
+                      repo: '{{site.comment_gitment_repo}}',
+                      oauth: {
+                          client_id: '{{site.comment_gitment_clientId}}',
+                          client_secret: '{{site.comment_gitment_clientSecret}}',
+                      },
+                  });
+              }
+              gitment.render('gitmentContainer')
+          </script>
+          {% endif %}-->
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 

@@ -1,6 +1,7 @@
 ---
 layout: none
 ---
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <articles>
     {% for post in site.posts %}
