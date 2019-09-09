@@ -70,7 +70,23 @@ layout: default
           <hr style="border-top:3px solid #2c538f;">
 
           <!--评论功能 JP 2019-09-09-->
-          {% if site.comment_gitment_repo %}
+
+          <div id="gitmentContainer"></div>
+          <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+          <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+          <script>
+            var gitment = new Gitment({
+              owner: '{{site.github_username}}',
+              repo: '{{site.comment_gitment_repo}}',
+              oauth: {
+                client_id: '{{site.comment_gitment_clientId}}',
+                client_secret: '{{site.comment_gitment_clientSecret}}',
+              },
+            });
+            gitment.render('gitmentContainer');
+          </script>
+
+          <!--{% if site.comment_gitment_repo %}
           <div id="gitmentContainer"></div>
           <link rel="stylesheet" href="{{ '/styles/css/gitment.css' | prepend: site.baseurl }}">
           <script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
@@ -100,7 +116,7 @@ layout: default
             }
             gitment.render('gitmentContainer')
           </script>
-          {% endif %}
+          {% endif %}-->
 
         </div>
       </div>
