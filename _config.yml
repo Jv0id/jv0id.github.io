@@ -16,7 +16,7 @@ author_cn: 夏潇熙
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
 # 一页有几篇文章
-paginate: 10
+paginate: 6
 paginate_path: 'page:num'
 
 # 设置时区，如果设置每个文章头部date结尾添加 +0800，本地运行慢八个小时，GitHub上正常
