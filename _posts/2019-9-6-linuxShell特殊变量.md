@@ -24,32 +24,23 @@ author: Jv0id
 - 不同点：只有在双引号中体现出来。假设在脚本运行时写了三个参数（分别存储在1123）则"3）则"*"等价于"1123"（传递了一个参数）；而"3"（传递了一个参数）；而“@"等价于"1""1""2""$3"（传递了三个参数）
 
 ## 变量说明:
-`$$`     
-Shell本身的PID（ProcessID）
+`$$`：Shell本身的PID（ProcessID）
  
-`$!`       
-Shell最后运行的后台Process的PID 
+`$!`：Shell最后运行的后台Process的PID 
 
-`$?`           
-最后运行的命令的结束代码（返回值,0为正常，其它为不正常。） 
+`$?`：最后运行的命令的结束代码（返回值,0为正常，其它为不正常。） 
 
-`$-`          
-使用Set命令设定的Flag一览 
+`$-`：使用Set命令设定的Flag一览 
 
-`$*`        
-所有参数列表。如"$*"用「"」括起来的情况、以"$1 $2 … $n"的形式输出所有参数。
+`$*`：所有参数列表。如"$*"用「"」括起来的情况、以"$1 $2 … $n"的形式输出所有参数。
  
-`$@`          
-所有参数列表。如"$@"用「"」括起来的情况、以"$1" "$2" … "$n" 的形式输出所有参数。 
+`$@`：所有参数列表。如"$@"用「"」括起来的情况、以"$1" "$2" … "$n" 的形式输出所有参数。 
 
-`$#`        
-添加到Shell的参数个数 
+`$#`：添加到Shell的参数个数 
 
-`$0`           
-Shell本身的文件名 
+`$0`：Shell本身的文件名 
 
-`$1～$n`             
-添加到Shell的各参数值。$1是第1参数、$2是第2参数…。
+`$1～$n`：添加到Shell的各参数值。$1是第1参数、$2是第2参数…。
 
 
 ## 一、文件比较运算符
@@ -91,7 +82,8 @@ Shell本身的文件名
 2. `du -sh ./*` 查看当前目录下文件大小，单位M
 
 ## awk处理过程: 
-依次对每一行进行处理，然后输出 awk命令形式:          
+依次对每一行进行处理，然后输出 awk命令形式:
+
 `awk [-F|-f|-v] ' BEGIN{} // {command1;command2} END{}' file ` 
 
 - `[-F|-f|-v]` :大参数，-F指定分隔符，-f调用脚本，-v定义变量 var=value 
@@ -104,10 +96,12 @@ Shell本身的文件名
 
 ## ps和topcpu 占用区别
 
-* 看看man ps里的相关内容           
+* 看看man ps里的相关内容
+
 `CPU usage is currently expressed as the percentage of time spent running during the entire lifetime of a process. This is not ideal,and it does not conform to the standards that ps otherwise conforms to.CPU usage is unlikely to add up to exactly 100%.`
 
-* 再看看top的           
+* 再看看top的
+
 `k: %CPU – CPU usage The task’s share of the elapsed CPU time since the last screen update, expressed as a percentage of total CPU time. In a true SMP environment, if ‘Irix mode’ is Off, top will operate in ‘Solaris mode’ where a task’s cpu usage will be divided by the total number of CPUs. You toggle ‘Irix/Solaris’ modes with the ‘I’ interactive command.`
 
 就不难理解了。ps是从进程开始就开始算的，是平均的占用率；而top是从上次刷新开始算的，一般几秒钟一刷，可以认为是即时的。而桌面系统我们一般更关注即时的，所以top的cpu占用率才是我需要的。而且top默认cpu的占用率的和并不是100%，而是核数x100%，所以有时会有一个进程占用超过100%的情况。
