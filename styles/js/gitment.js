@@ -3453,7 +3453,7 @@ var Gitment =
             var container = document.createElement('div');
             container.lang = "en-US";
             container.className = 'gitment-container gitment-footer-container';
-            container.innerHTML = '\n    由\n    <a class="gitment-footer-project-link" href="https://github.com/imsun/gitment" target="_blank">\n      Gitment\n    </a> 强力驱动\n · <a href="https://billts.site">码农BTS</a> 汉化 ';
+            container.innerHTML = '\n    由\n    <a class="gitment-footer-project-link" href="https://github.com/imsun/gitment" target="_blank">\n      Gitment\n    </a> 强力驱动\n · <a href="https://8void.cn">码农JP</a> 组装 ';
             return container;
         }
 
