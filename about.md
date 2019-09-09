@@ -22,6 +22,7 @@ permalink: /about/
 * QQ: 125686687
 * email：<jv0id@foxmail.com>
 
-## 关于本站<http://8void.cn/>
+## 关于本站
+* <https://8void.cn/>
 
 * 自己平时记录的笔记，大部分来自网络。 ~欢迎访问~
