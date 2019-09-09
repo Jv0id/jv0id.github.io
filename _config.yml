@@ -39,6 +39,6 @@ excerpt_separator: "<!-- more -->"
 baidu_analysis: 05d061c4501320058e73b02c1bd8b1b8
 
 # gitment
-#comment_gitment_repo: http://8void.cn/
-#comment_gitment_clientId: 0f1d860f67e66224d798
-#comment_gitment_clientSecret: cb2ad5808b1089c1d84244427fc5387bb4ed57ac
+comment_gitment_repo: https://github.com/Jv0id/jv0id.github.io
+comment_gitment_clientId: 95327c55537a27670094
+comment_gitment_clientSecret: 3de338a5440c02749aca03ab9478d886a20f624d

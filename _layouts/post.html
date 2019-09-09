@@ -69,38 +69,38 @@ layout: default
           {% endif %}
           <hr style="border-top:3px solid #2c538f;">
 
-          <!--去除评论功能 JP 2019-09-09-->
-          <!--{% if site.comment_gitment_repo %}
+          <!--评论功能 JP 2019-09-09-->
+          {% if site.comment_gitment_repo %}
           <div id="gitmentContainer"></div>
           <link rel="stylesheet" href="{{ '/styles/css/gitment.css' | prepend: site.baseurl }}">
           <script src="{{ '/styles/js/gitment.js' | prepend: site.baseurl }}"></script>
           <script>
-              var title_length = '{{ page.title }}'.length
-              if (title_length < 50 && '{{ page.title }}'.indexOf(",") == -1) {
-                  var gitment = new Gitment({
-                      id: '{{ page.title }}',
-                      owner: '{{site.github_username}}',
-                      repo: '{{site.comment_gitment_repo}}',
-                      oauth: {
-                          client_id: '{{site.comment_gitment_clientId}}',
-                          client_secret: '{{site.comment_gitment_clientSecret}}',
-                      },
-                  });
-              } else {
-                  var gitment = new Gitment({
-                      id: '{{ page.date }}',
-                      title: '{{ page.title }}',
-                      owner: '{{site.github_username}}',
-                      repo: '{{site.comment_gitment_repo}}',
-                      oauth: {
-                          client_id: '{{site.comment_gitment_clientId}}',
-                          client_secret: '{{site.comment_gitment_clientSecret}}',
-                      },
-                  });
-              }
-              gitment.render('gitmentContainer')
+            var title_length = '{{ page.title }}'.length
+            if (title_length < 50 && '{{ page.title }}'.indexOf(",") == -1) {
+              var gitment = new Gitment({
+                id: '{{ page.title }}',
+                owner: '{{site.github_username}}',
+                repo: '{{site.comment_gitment_repo}}',
+                oauth: {
+                  client_id: '{{site.comment_gitment_clientId}}',
+                  client_secret: '{{site.comment_gitment_clientSecret}}',
+                },
+              });
+            } else {
+              var gitment = new Gitment({
+                id: '{{ page.date }}',
+                title: '{{ page.title }}',
+                owner: '{{site.github_username}}',
+                repo: '{{site.comment_gitment_repo}}',
+                oauth: {
+                  client_id: '{{site.comment_gitment_clientId}}',
+                  client_secret: '{{site.comment_gitment_clientSecret}}',
+                },
+              });
+            }
+            gitment.render('gitmentContainer')
           </script>
-          {% endif %}-->
+          {% endif %}
 
         </div>
       </div>
