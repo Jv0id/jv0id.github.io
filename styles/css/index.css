@@ -6296,14 +6296,11 @@ hr {
   }
 }
 .banner {
-  padding: 15px 5%;
+  padding: 15px 20px;
   color: #333;
   background-color: #fafafa;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #e5e5e5;
-  position: fixed;
-  top: 10%;
-  width: 100%;
 }
 .banner strong {
   color: #555;
