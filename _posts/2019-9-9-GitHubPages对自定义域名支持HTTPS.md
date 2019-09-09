@@ -19,7 +19,7 @@ author: Jv0id
 
 * 操作流程
 
-本文以项目 [https://github.com/jv0id/jv0id.github.io](https://github.com/jv0id/jv0id.github.io) 和域名 [8void.cn](8void.cn>) 为例。
+本文以项目 [https://github.com/jv0id/jv0id.github.io](https://github.com/jv0id/jv0id.github.io) 和域名 [8void.cn](https://8void.cn>) 为例。
 
 操作流程：
 
