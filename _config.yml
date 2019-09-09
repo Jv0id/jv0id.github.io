@@ -24,7 +24,7 @@ timezone: Asia/Shanghai
 
 ## Gem
 gems: [jekyll-paginate]
- highlighter: pygments
+# highlighter: pygments
 
 
 # 就是没有文章的时候显示的提示，未加无分类前:no-category-index,未加无标签前:no-tag-index,未加无归档前:no-archive
