@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux安装Redis"
-date:   2019-09-09 10:42:00 +0800
+date:   2019-09-10 10:02:00 +0800
 categories: Redis
 tags:  Linux redis 安装
 author: Jv0id
