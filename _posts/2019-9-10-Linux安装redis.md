@@ -40,7 +40,7 @@ tar -zxvf redis-5.0.5.tar.gz
 make
 ```
 
-> 如果报错： `redis linux安装 [adlist.o] Error jemalloc/jemalloc.h: No such file or directory` <https://blog.csdn.net/lgh1117/article/details/48270085>
+> 如果报错： `redis linux安装 [adlist.o] Error jemalloc/jemalloc.h: No such file or directory` 可参考：<https://blog.csdn.net/lgh1117/article/details/48270085>
 
 就开启了Redis的编译状态，在编译完成之后可以看到类似如下的信息提示：
 
@@ -57,7 +57,7 @@ make
 
 Hint: It's a good idea to run 'make test' ;)
 
-make[1]: Leaving directory `/mnt/vdb/software/redis-5.0.5/src'
+make[1]: Leaving directory `/root/redis-5.0.5/src'
 ```
 
 - 应当运行make test命令
@@ -74,7 +74,7 @@ make install
 - 安装完成之后的提示结果为：
 
 ```bash
-Hint: It's a good idea to run 'make test' ;)
+Hint: It is a good idea to run 'make test' ;)
 
     INSTALL install
     INSTALL install
@@ -154,15 +154,11 @@ pstree -p | grep redis
 ```
 可以看到提示：
 
-|-redis-server(7509)-+-{redis-server}(7510)
-       |                    |-{redis-server}(7511)
-       |                    `-{redis-server}(7512)
-
 ![](https://raw.githubusercontent.com/jv0id/jv0id.github.io/master/images/redis/1.png)
 
 证明Redis服务正在运行。
 
-**其中Redis服务的默认端口号为6379。**
+**Redis服务的默认端口号为6379。**
 
 我们可以使用如下命令查看端口占用情况：
 
@@ -180,7 +176,7 @@ redis-ser 8842 root    6u  IPv4 33556564      0t0  TCP VM_39_184_centos:6379 (LI
 
 注意，redis服务需要 root 权限才能查看，不然只能检查到6379被某个进程占用，但是看不到进程名称。
 
-至此，redis服务已经按照配置文件启动成功！！
+至此，redis服务已经按照配置文件启动成功。
 
 ## 七、客户端登录
 
@@ -203,8 +199,7 @@ redis-ser 8842 root    6u  IPv4 33556564      0t0  TCP VM_39_184_centos:6379 (LI
 
 - `pkill redis-server`
 - 在Redis的`bin`目录下`/redis-cli shutdown`
-
-还可以使用 `killall` 和`kill -9`对服务进行关闭。
+- 还可以使用 `killall` 和`kill -9`对服务进行关闭。
 
 ## 九、附录：配置信息
 
@@ -235,3 +230,5 @@ redis-ser 8842 root    6u  IPv4 33556564      0t0  TCP VM_39_184_centos:6379 (LI
 + Glueoutputbuf 把小的输出缓存存放在一起
 + hash-max-zipmap-entries 设置hash的临界值
 + Activerehashing 重新hash
+
+转自：https://blog.csdn.net/u011669700/article/details/79566713
