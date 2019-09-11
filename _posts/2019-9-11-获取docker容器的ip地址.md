@@ -10,6 +10,8 @@ author: Jv0id
 {:toc}
 
 
+test ----->  {{ 12345 }}
+
 ### 1-进入容器内部
 
 `cat /etc/hosts`
@@ -26,7 +28,7 @@ author: Jv0id
 
 或
 
-`docker inspect -f '{{{range .NetworkSettings.Networks}}}{{{.IPAddress}}}{{{end}}}' container_name_or_id`
+`docker inspect -f '{{{range .NetworkSettings.Networks}}} {{{.IPAddress}}}{{{end}}}' container_name_or_id`
 
 ### 3-可以考虑在~/.bashrc中写一个函数
 
