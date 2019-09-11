@@ -10,7 +10,7 @@ author: Jv0id
 {:toc}
 
 
-test ----->  {{ 12345 }}
+> > > **文中的所用的大括号`{}`均为中文状态下的符号，注意更改。**
 
 ### 1-进入容器内部
 
@@ -20,7 +20,7 @@ test ----->  {{ 12345 }}
 
 ### 2-使用命令
 
-- `docker inspect --format '{{{ .NetworkSettings.IPAddress }}}' <container-ID>`
+`docker inspect --format '｛ ｛  .NetworkSettings.IPAddress ｝｝' <container-ID>`
 
 或
 
@@ -28,12 +28,12 @@ test ----->  {{ 12345 }}
 
 或
 
-`docker inspect -f '{{{range .NetworkSettings.Networks}}} {{{.IPAddress}}}{{{end}}}' container_name_or_id`
+`docker inspect -f '｛ ｛ range .NetworkSettings.Networks ｝｝ ｛ ｛ .IPAddress ｝｝｛ ｛ end ｝｝' container_name_or_id`
 
 ### 3-可以考虑在~/.bashrc中写一个函数
 
 `function docker_ip() {
-    sudo docker inspect --format '{{{ .NetworkSettings.IPAddress }}}' $1
+    sudo docker inspect --format '｛ ｛  .NetworkSettings.IPAddress ｝｝' $1
 }`
 
 `source ~/.bashrc`
@@ -43,12 +43,13 @@ test ----->  {{ 12345 }}
 `docker_ip <container-ID>`
 
 ### 4-要获取所有容器名称及其IP地址
-`docker inspect -f '{{{.Name}}} - {{{.NetworkSettings.IPAddress }}}' $(docker ps -aq)`
+`docker inspect -f '｛ ｛ .Name ｝｝ - ｛ ｛ .NetworkSettings.IPAddress ｝｝' $(docker ps -aq)`
 
 如果使用docker-compose命令将是:
 
-`docker inspect -f '{{{.Name}}} - {{{range .NetworkSettings.Networks}}}{{{.IPAddress}}}{{{end}}}' $(docker ps -aq)`
+`docker inspect -f '｛ ｛ .Name ｝｝ - ｛ ｛ range .NetworkSettings.Networks ｝｝｛ ｛ .IPAddress ｝｝｛ ｛ end ｝｝' $(docker ps -aq)`
 
 ### 5-显示所有容器IP地址
 
-`docker inspect --format='{{{.Name}}} - {{{range .NetworkSettings.Networks}}}{{{.IPAddress}}}{{{end}}}' $(docker ps -aq)`
+`docker inspect --format='｛ ｛ .Name ｝｝ - ｛ ｛ range .NetworkSettings.Networks ｝｝｛ ｛ .IPAddress ｝｝｛ ｛ end ｝｝' $(docker ps -aq)`
+
