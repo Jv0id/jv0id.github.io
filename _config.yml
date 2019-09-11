@@ -34,6 +34,7 @@ github_username: jv0id
 
 # Build settings
 markdown: kramdown
+# 控制摘要内容，在文章中想要显示到的地方加上 <!--more-->
 excerpt_separator: "<!-- more -->"
 
 baidu_analysis: 05d061c4501320058e73b02c1bd8b1b8
