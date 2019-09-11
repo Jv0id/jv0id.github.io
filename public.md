@@ -30,3 +30,7 @@ ppt文档						{#ppt}
 - [案例库分享](https://raw.githubusercontent.com/Jv0id/jv0id.github.io/master/public/ppt/案例库分享.pptx)
 
 - [MCN当下面临的挑战](https://raw.githubusercontent.com/Jv0id/jv0id.github.io/master/public/ppt/MCN当下面临的挑战.pptx)
+
+Mac软件下载						{#软件}
+===================================
+- [redis desktop manager](https://raw.githubusercontent.com/Jv0id/jv0id.github.io/master/public/rdm/rdm.zip)
