@@ -18,7 +18,7 @@ author: Jv0id
 
 ### 2-使用命令
 
-`docker inspect --format '{{{ .NetworkSettings.IPAddress }}}' <container-ID>`
+- `docker inspect --format '{{{ .NetworkSettings.IPAddress }}}' <container-ID>`
 
 或
 
