@@ -5,7 +5,7 @@ highlight_theme: tomorrow-night-blue # "default" (default), "tomorrow", "tomorro
 url     : https://8void.cn # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : '' # does not include hostname
 title   : 爱码士峡谷
-description: > # this means to ignore newlines until "Language & timezone"
+description: >
   学而不思则罔 思而不学则殆
 
 
@@ -24,11 +24,11 @@ author:
   avatar    : http://www.ghost64.com/qqtupian/zixunImg/local/2018/09/05/15361537075013.jpeg # path or url of avatar image (square)
   bio       : 爱码士峡谷
   email     : jv0id@foxmail.com
-  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  facebook  : jiangpeng # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : jjv0id # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
-  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
-  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+  weibo     : jiangpengisme # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+  googleplus: jiangpengisme # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+  telegram  : jv0id # "user_name" the last part of your profile url, e.g. https://t.me/user_name
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
