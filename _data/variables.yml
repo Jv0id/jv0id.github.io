@@ -32,11 +32,11 @@ default:
     show_tags: true
     show_author_profile: false
     show_subscribe: false
-    full_width: false
+    full_width: true
     sharing: false
     comment: true
     license: false
-    pageview: false
+    pageview: true
     search: default
 
 sources:
