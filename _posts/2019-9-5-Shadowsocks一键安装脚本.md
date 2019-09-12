@@ -1,12 +1,9 @@
 ---
-
 title:  "shadowsocks各系统一键安装脚本"
 key: shadowsocks
 tags:  ssr 一键安装 翻墙   
 author: Jv0id
 ---
-
-
 
 #### 关于本脚本
 * 系统支持：CentOS 6+，Debian 7+，Ubuntu 12+
@@ -182,4 +179,3 @@ tls1.2_ticket_auth_compatible
 tls1.2_ticket_fastauth
 tls1.2_ticket_fastauth_compatible
 ```
-本文链接<https://jv0id.github.io/2019/09/05/Shadowsocks%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC/>{:target="_blank"}
