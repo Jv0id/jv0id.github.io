@@ -16,8 +16,8 @@ titles:
   ko      : &KO       소개
   ko-KR   : *KO
 key: page-about
+show_author_profile: true
 ---
-
 
 - 国家一级退堂鼓鼓手
 - 汉语/男♂/中国公民/江苏人/双子/85后/女儿奴/程序员/反台独/反邪教/反洗脑/爱国/旅游/摄影/计算机
