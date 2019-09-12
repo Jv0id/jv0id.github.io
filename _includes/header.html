@@ -1,60 +1,44 @@
-<header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
-    <div class="container">
-        <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="/" class="navbar-brand">
-                <img src="{{ '/styles/images/logo.jpg' | prepend: site.baseurl }}">
-            </a>
-            <ul class="nav navbar-nav" style="display: inline-flex; margin:0 -17px;">
-                <li>
-                    <a href="{{ '/' | prepend: site.baseurl }}">首页</a>
-                </li>
-                <li>
-                    <a href="{{ '/categories/' | prepend: site.baseurl }}">博客分类</a>
-                </li>
-                <li>
-                    <a href="{{ '/tag' | prepend: site.baseurl }}">博客标签</a>
-                </li>
-                <li>
-                    <a href="{{ '/archive' | prepend: site.baseurl }}">博客归档</a>
-                </li>
-            </ul>
+{%- if include.theme == 'dark' -%}
+  <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- elsif include.theme == 'light' -%}
+  <header class="header header--light" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- else -%}
+  <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+{%- endif -%}
+    <div class="main">
+      <div class="header__title">
+        <div class="header__brand">
+          {%- include svg/logo.svg -%}
+          {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+          {%- include snippets/get-nav-url.html path=_paths_root -%}
+          {%- if site.title -%}
+            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
+          {%- endif -%}
         </div>
-        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <div class="toolbar">
-                        <div id="searchFrom">
-                            <input type="text" name="j_search" id="j_search" size="30" placeholder="Search for..."
-                                   required="" class="ui-autocomplete-input" role="textbox" aria-autocomplete="list"
-                                   aria-haspopup="true">
-                            <button type="submit">Search for...</button>
-                        </div>
-                    </div>
-                </li>
-
-                <li style="display:inline-block">
-                    <a><span id="busuanzi_container_site_pv">您是本站第<span id="busuanzi_value_site_pv"></span>位小伙伴</span></a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="display:flow-root;">关于<b
-                            class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a rel="nofollow" href="{{ '/about' | prepend: site.baseurl }}">关于作者</a></li>
-                        <li><a rel="nofollow" href="{{ '/reference' | prepend: site.baseurl }}">工具网站链接</a></li>
-                        <li><a rel="nofollow" href="{{ '/public' | prepend: site.baseurl }}">公共文件</a></li>
-<!--                        <li><a rel="nofollow" target="_blank" href="https://github.com/login">Github登录</a></li>-->
-                        <li class="divider"></li>
-                        <li><a rel="nofollow" target="_blank"
-                               href="https://www.google.com">打开谷歌</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        {%- if site.search.provider -%}
+          <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
+        {%- endif -%}
+      </div>
+      {%- if site.data.navigation.header -%}
+      <nav class="navigation">
+        <ul>
+          {%- for _item in site.data.navigation.header -%}
+            {%- include snippets/get-nav-url.html path=_item.url -%}
+            {%- assign _nav_url = __return -%}
+            {%- include snippets/get-nav-url.html path=page.url -%}
+            {%- assign _page_url = __return -%}
+            {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
+            {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
+              <li class="navigation__item navigation__item--active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+            {%- else -%}
+              <li class="navigation__item"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if site.search.provider -%}
+            <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
+          {%- endif -%}
+        </ul>
+      </nav>
+      {%- endif -%}
     </div>
-</header>
+  </header>
