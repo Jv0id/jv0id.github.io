@@ -5,7 +5,7 @@ tags:  yum rpmdb failed error
 author: Jv0id
 ---
 
-在centos系统上，在使用yum命令安装软件包时候报错：
+## 在centos系统上，在使用yum命令安装软件包时候报错：
 
 ```bash
 error: rpmdb: BDB0113 Thread/process 29414/140651526424384 failed: BDB1507 Thread died in Berkeley DB library
@@ -17,9 +17,9 @@ CRITICAL:yum.main:
 Error: rpmdb open failed
 ```
 
-原因是RPM数据库被破坏
+## 原因是RPM数据库被破坏
 
-重建数据库后恢复正常：
+## 重建数据库后恢复正常：
 
 ```bash
 cd /var/lib/rpm/

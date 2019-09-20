@@ -5,9 +5,6 @@ tags:  docker ip container 容器
 author: Jv0id
 ---
 
-
-
-
 > > > **文中的所用的大括号`{}`均为中文状态下的符号，注意更改。**
 
 ### 1-进入容器内部
