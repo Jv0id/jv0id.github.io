@@ -1,5 +1,6 @@
 ---
 title: 使用yum提示Error: rpmdb open failed
+modify_date: 2019-09-20
 key: 20190920144556
 tags: yum rpmdb failed error
 author: Jv0id

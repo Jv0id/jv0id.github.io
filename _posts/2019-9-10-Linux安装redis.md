@@ -1,14 +1,10 @@
 ---
-
 title:  "Linux安装Redis"
-modify_date:   2019-09-10 10:02:00 +0800
+modify_date: 2019-09-10 10:02:00 +0800
 key: Redis
 tags:  Linux redis 安装
 author: Jv0id
 ---
-
-
-
 
 ## 系统版本为centOS 7.3
 
