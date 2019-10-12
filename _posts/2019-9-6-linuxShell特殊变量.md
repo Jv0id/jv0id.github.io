@@ -1,11 +1,16 @@
 ---
+title: "Linux shell的特殊变量"
 layout: post
-title:  "Linux shell的特殊变量"
-key: linux
-tags:  shell 变量 linux   
-author: Jv0id
+date: 2019-09-06 14:08
+headerImage: false
+tag:
+- shell
+- 变量
+- linux
+category: blog
+author: 夏潇熙
+description: Linux shell的特殊变量
 ---
-
 
 
 

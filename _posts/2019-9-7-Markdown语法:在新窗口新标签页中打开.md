@@ -1,11 +1,17 @@
 ---
+title: "Markdown语法:在新窗口新标签页中打开"
 layout: post
-title:  "Markdown语法:在新窗口新标签页中打开"
-key: Markdown
-tags:  Markdown 新窗口 语法 区别   
-author: Jv0id
+date: 2019-09-07 12:08
+headerImage: false
+tag:
+- Markdown
+- 新窗口
+- 语法
+- 区别
+category: blog
+author: 夏潇熙
+description: Markdown语法:在新窗口新标签页中打开
 ---
-
 
 
 ## 超链接：默认在本标签页打开

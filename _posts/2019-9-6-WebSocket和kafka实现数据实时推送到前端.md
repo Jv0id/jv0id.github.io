@@ -1,9 +1,16 @@
 ---
+title: "WebSocket和kafka实现数据实时推送到前端"
 layout: post
-title:  "WebSocket和kafka实现数据实时推送到前端"
-key: java
-tags:  java websocket kafka 实时   
-author: Jv0id
+date: 2019-09-06 12:08
+headerImage: false
+tag:
+- java
+- websocket
+- kafka
+- 实时
+category: blog
+author: 夏潇熙
+description: WebSocket和kafka实现数据实时推送到前端
 ---
 
 

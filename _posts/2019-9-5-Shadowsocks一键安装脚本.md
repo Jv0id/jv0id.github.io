@@ -1,9 +1,15 @@
 ---
+title: "shadowsocks各系统一键安装脚本"
 layout: post
-title:  "shadowsocks各系统一键安装脚本"
-key: shadowsocks
-tags:  ssr 一键安装 翻墙   
-author: Jv0id
+date: 2019-09-05 12:08
+headerImage: false
+tag:
+- ssr
+- 一键安装
+- 翻墙
+category: blog
+author: 夏潇熙
+description: shadowsocks各系统一键安装脚本
 ---
 
 #### 关于本脚本

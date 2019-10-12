@@ -1,12 +1,16 @@
 ---
+title: "GitHub Pages 对自定义域名支持 HTTPS"
 layout: post
-title:  "GitHub Pages 对自定义域名支持 HTTPS"
-modify_date:   2019-09-09 10:42:00 +0800
-key: GitHub
-tags:  GitHub HTTPS 自定义域名
-author: Jv0id
+date: 2019-09-09 10:42
+headerImage: false
+tag:
+- GitHub
+- HTTPS
+- 自定义域名
+category: blog
+author: 夏潇熙
+description: GitHub Pages 对自定义域名支持 HTTPS
 ---
-
 
 
 > GitHub Pages Blog 原文：[Custom domains on GitHub Pages gain support for HTTPS](https://github.blog/2018-05-01-github-pages-custom-domains-https/)

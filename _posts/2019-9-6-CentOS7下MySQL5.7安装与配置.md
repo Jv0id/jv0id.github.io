@@ -1,11 +1,16 @@
 ---
+title: "CentOS7 64位下MySQL5.7安装与配置（YUM）"
 layout: post
-title:  "CentOS7 64位下MySQL5.7安装与配置（YUM）"
-key: mysql
-tags:  mysql CentOS7 yum   
-author: Jv0id
+date: 2019-09-06 12:08
+headerImage: false
+tag:
+- mysql
+- CentOS7
+- yum
+category: blog
+author: 夏潇熙
+description: CentOS7 64位下MySQL5.7安装与配置（YUM）
 ---
-
 
 
 > 安装环境：CentOS7 64位 MINI版，安装MySQL5.7

@@ -1,12 +1,16 @@
 ---
+title: "Linux安装Redis"
 layout: post
-title:  "Linux安装Redis"
-modify_date:   2019-09-10 10:02:00 +0800
-key: Redis
-tags:  Linux redis 安装
-author: Jv0id
+date: 2019-09-10 10:02
+headerImage: false
+tag:
+- Linux
+- redis
+- 安装
+category: blog
+author: 夏潇熙
+description: Linux安装Redis
 ---
-
 
 
 
