@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java基础复习三Java对象与类"
 key: java基础
 tags: java基础 对象

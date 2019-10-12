@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java复习JDBC"
 key: JDBC
 tags: 数据库连接 JDBC

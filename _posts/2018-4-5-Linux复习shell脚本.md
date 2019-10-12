@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "Linux复习shell脚本"
 key: Linux
 tags: Linux shell脚本

@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java复习servlet"
 key: servlet
 tags: servlet

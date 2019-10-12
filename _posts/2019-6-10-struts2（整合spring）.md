@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "struts2（整合spring）"
 key: struts2
 tags: struts2

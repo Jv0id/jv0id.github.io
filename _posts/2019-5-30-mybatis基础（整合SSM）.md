@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "mybatis基础（整合SSM）"
 key: mybatis
 tags: mybatis

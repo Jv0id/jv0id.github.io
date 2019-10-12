@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "springMVC基础（三）"
 key: springMVC
 tags: springMVC

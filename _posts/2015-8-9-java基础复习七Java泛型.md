@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java基础复习七Java泛型"
 key: java基础
 tags: java基础 泛型

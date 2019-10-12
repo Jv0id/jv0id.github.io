@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title:  "Markdown语法:在新窗口新标签页中打开"
 key: Markdown
 tags:  Markdown 新窗口 语法 区别   

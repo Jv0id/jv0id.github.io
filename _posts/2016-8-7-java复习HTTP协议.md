@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java复习HTTP协议"
 key: HTTP协议
 tags: HTTP协议

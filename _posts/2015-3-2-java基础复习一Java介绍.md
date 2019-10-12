@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java基础复习一Java介绍"
 key: java基础
 tags: java基础 Java介绍

@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java基础复习十二Lambda"
 key: java基础
 tags: java基础 Lambda

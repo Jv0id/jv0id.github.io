@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java基础复习四Java继承"
 key: java基础
 tags: java基础 继承

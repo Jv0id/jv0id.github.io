@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "Linux搭建java环境"
 key: Linux
 tags: Linux java环境

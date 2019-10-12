@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "mybatisPlus（插件扩展）"
 key: mybatisPlus
 tags: mybatisPlus

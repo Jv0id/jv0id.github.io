@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java复习Tomcat"
 key: Tomcat
 tags: Tomcat

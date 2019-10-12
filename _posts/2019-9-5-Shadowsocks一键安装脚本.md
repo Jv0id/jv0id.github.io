@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "shadowsocks各系统一键安装脚本"
 key: shadowsocks
 tags:  ssr 一键安装 翻墙   

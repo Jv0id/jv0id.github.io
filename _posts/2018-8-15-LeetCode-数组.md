@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "LeetCode-数组"
 key: LeetCode
 tags: LeetCode 数组

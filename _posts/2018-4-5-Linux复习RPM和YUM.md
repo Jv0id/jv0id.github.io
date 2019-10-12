@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "Linux复习RPM和YUM"
 key: Linux
 tags: Linux RPM YUM

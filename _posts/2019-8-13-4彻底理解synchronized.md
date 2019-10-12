@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "4彻底理解synchronized"
 key: 并发
 tags: 并发

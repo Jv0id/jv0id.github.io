@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "hibernate基础（整合spring）"
 key: hibernate
 tags: hibernate

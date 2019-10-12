@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java复习Junit"
 key: Junit
 tags: Junit

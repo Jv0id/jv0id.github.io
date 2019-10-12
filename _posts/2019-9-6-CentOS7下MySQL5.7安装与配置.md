@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title:  "CentOS7 64位下MySQL5.7安装与配置（YUM）"
 key: mysql
 tags:  mysql CentOS7 yum   

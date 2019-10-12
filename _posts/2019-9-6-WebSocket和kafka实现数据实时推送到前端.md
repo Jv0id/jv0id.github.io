@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title:  "WebSocket和kafka实现数据实时推送到前端"
 key: java
 tags:  java websocket kafka 实时   

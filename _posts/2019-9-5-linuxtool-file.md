@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title:  "file命令的详解"
 key: linux
 tags:  centos7 file linux   

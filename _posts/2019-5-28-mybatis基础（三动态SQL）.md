@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "mybatis基础（三动态SQL）"
 key: mybatis
 tags: mybatis

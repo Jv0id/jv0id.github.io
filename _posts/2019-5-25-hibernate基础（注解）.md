@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "hibernate基础（注解）"
 key: hibernate
 tags: hibernate

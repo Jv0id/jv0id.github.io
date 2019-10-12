@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java基础复习十一Java网络编程"
 key: java基础
 tags: java基础 网络编程

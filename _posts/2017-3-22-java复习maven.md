@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java复习maven"
 key: maven
 tags: maven

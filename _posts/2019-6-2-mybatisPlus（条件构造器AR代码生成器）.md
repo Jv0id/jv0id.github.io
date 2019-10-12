@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "mybatisPlus（条件构造器/AR/代码生成器）"
 key: mybatisPlus
 tags: mybatisPlus

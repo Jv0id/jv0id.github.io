@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Spring Boot 入门"
 key: springBoot
 tags: springBoot

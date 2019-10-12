@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "mybatisPlus（通用CRUD）"
 key: mybatisPlus
 tags: mybatisPlus

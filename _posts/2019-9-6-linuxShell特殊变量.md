@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title:  "Linux shell的特殊变量"
 key: linux
 tags:  shell 变量 linux   

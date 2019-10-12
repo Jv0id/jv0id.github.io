@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java基础复习五Java接口和内部类"
 key: java基础
 tags: java基础 接口 内部类

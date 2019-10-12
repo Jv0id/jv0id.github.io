@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title:  "GitHub Pages 对自定义域名支持 HTTPS"
 modify_date:   2019-09-09 10:42:00 +0800
 key: GitHub

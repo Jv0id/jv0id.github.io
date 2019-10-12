@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java面试web篇"
 key: 面试
 tags: 面试

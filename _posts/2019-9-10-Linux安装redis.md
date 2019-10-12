@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title:  "Linux安装Redis"
 modify_date:   2019-09-10 10:02:00 +0800
 key: Redis

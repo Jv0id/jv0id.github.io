@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "struts2（OGNL和值栈）"
 key: struts2
 tags: struts2

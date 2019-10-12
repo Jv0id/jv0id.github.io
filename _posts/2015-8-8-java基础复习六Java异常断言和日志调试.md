@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title: "java基础复习六Java异常断言和日志调试"
 key: java基础
 tags: java基础 异常 断言 日志 调试
