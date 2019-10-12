@@ -1,11 +1,16 @@
 ---
-layout: post
 title: "java面试web篇"
-key: 面试
-tags: 面试
-author: jv0id
+layout: post
+date: 2018-04-08 22:48
+headerImage: false
+tag:
+- 面试
+- java
+- web
+category: blog
+author: 夏潇熙
+description: java面试web篇
 ---
-
 
 
 ### servlet
