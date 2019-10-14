@@ -44,7 +44,43 @@ tar -zxvf redis-5.0.5.tar.gz
 make
 ```
 
-> 如果报错： `redis linux安装 [adlist.o] Error jemalloc/jemalloc.h: No such file or directory` 可参考：<https://blog.csdn.net/lgh1117/article/details/48270085>
+### 安装过程可能出现的问题：
+##### 1,CentOS5.7默认没有安装gcc，这会导致我们无法make成功。使用yum安装：
+`yum -y install gcc`
+
+##### 2,make时报如下错误：
+```bash
+zmalloc.h:50:31: error: jemalloc/jemalloc.h: No such file or directory
+
+zmalloc.h:55:2: error: #error "Newer version of jemalloc required"
+
+make[1]: *** [adlist.o] Error 1
+
+make[1]: Leaving directory '/data0/src/redis-2.6.2/src'
+
+make: *** [all] Error 2
+```
+
+原因是jemalloc重载了Linux下的ANSI C的malloc和free函数。解决办法：make时添加参数。
+
+`make MALLOC=libc`
+
+##### 3,make之后，会出现一句提示
+`Hint: To run 'make test' is a good idea ;) `
+
+但是不测试，通常是可以使用的。若我们运行`make test` ，会有如下提示
+
+```bash
+[devnote@devnote src]$ make test
+
+You need tcl 8.5 or newer in order to run the Redis test
+
+make: ***[test] Error_1
+```
+
+解决办法是用yum安装tcl8.5（或去tcl的官方网站http://www.tcl.tk/下载8.5版本，并参考官网介绍进行安装）
+
+`yum install tcl`
 
 就开启了Redis的编译状态，在编译完成之后可以看到类似如下的信息提示：
 
