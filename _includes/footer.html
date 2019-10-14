@@ -3,12 +3,12 @@
   <svg class="icon icon-rss">
     <use xlink:href="#icon-rss"></use>
   </svg>
-</a><br>
-  <span id="htmer_time" style="color: red;"></span>
-</footer>
+</a>
+  <span id="htmer_time" style="color: red;text-align:center;display: block"></span>
+  </footer>
 
-<!-- 计算网站运行时间 -->
-<span style="font-size:12px;"><script language=JavaScript>
+  <!-- 计算网站运行时间 -->
+  <span style="font-size:12px;"><script language=JavaScript>
  function secondToDate (second) {
    if (!second) {
      return 0;
@@ -43,7 +43,7 @@
  }
 </script>
 
-  <!-- 动态显示网站运行时间 -->
+    <!-- 动态显示网站运行时间 -->
 <script type="text/javascript" language="javascript">
     function setTime () {
       var create_time = Math.round(new Date(Date.UTC(2015, 01, 01, 0, 0, 0)).getTime() / 1000);
