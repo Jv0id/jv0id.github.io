@@ -235,8 +235,7 @@ redis-ser 8842 root    6u  IPv4 33556564      0t0  TCP VM_39_184_centos:6379 (LI
 
 ```bash
 ./redis-cli 
-
-127.0.0.1:6379> 
+127.0.0.1:6379>
 ```
 表明客户端登录成功，可以使用`exit`退出命令行。
 
@@ -246,7 +245,17 @@ redis-ser 8842 root    6u  IPv4 33556564      0t0  TCP VM_39_184_centos:6379 (LI
 - 在Redis的`bin`目录下`/redis-cli shutdown`
 - 还可以使用 `killall` 和`kill -9`对服务进行关闭。
 
-## 九、附录：配置信息
+## 九、使用RDM连接Redis时出现“拒绝连接错误”
+
+> 修改`etc/redis.conf 文件。
+
+`bind 127.0.0.1`
+
+> 修改为Redis部署的服务器IP地址。例如：
+
+`bind 192.168.1.100`
+
+## 十、附录：配置信息
 
 + daemonize 如果需要在后台运行，把该项改为yes
 + pidfile 配置多个pid的地址 默认在/var/run/redis. pid
