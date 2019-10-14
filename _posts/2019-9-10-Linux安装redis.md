@@ -66,10 +66,13 @@ make[1]: Leaving directory `/root/redis-5.0.5/src'
 - 源码文件被移动到当前目录的src文件夹下面。
 
 #### 安装过程可能出现的问题：
+
 - 1,CentOS5.7默认没有安装gcc，这会导致我们无法make成功。使用yum安装：
+
 `yum -y install gcc`
 
 - 2,make时报如下错误：
+
 ```bash
 zmalloc.h:50:31: error: jemalloc/jemalloc.h: No such file or directory
 
@@ -87,6 +90,7 @@ make: *** [all] Error 2
 `make MALLOC=libc`
 
 - 3,make之后，会出现一句提示
+
 `Hint: To run 'make test' is a good idea ;) `
 
 但是不测试，通常是可以使用的。若我们运行`make test` ，会有如下提示
