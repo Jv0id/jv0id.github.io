@@ -67,7 +67,7 @@ make[1]: Leaving directory `/root/redis-5.0.5/src'
 
 #### 安装过程可能出现的问题：
 
-- 1,CentOS5.7默认没有安装gcc，这会导致我们无法make成功。使用yum安装：
+- 1,部分CentOS默认是没有安装gcc，这会导致我们无法make成功。使用yum安装：
 
 `yum -y install gcc`
 
@@ -142,13 +142,13 @@ Hint: It is a good idea to run 'make test' ;)
 
 ```bash
 cd ..
-mkdir etc
+mkdir conf
 mkdir bin
 ```
 之后使用命令将对应的文件移动到对应目录下：
 
 ```bash
-mv redis.conf etc/
+mv redis.conf conf/
 cd src
 mv mkreleasehdr.sh  redis-benchmark  redis-check-aof  redis-check-rdb  redis-cli  redis-sentinel  redis-server  redis-trib.rb ../bin
 ```
@@ -247,7 +247,7 @@ redis-ser 8842 root    6u  IPv4 33556564      0t0  TCP VM_39_184_centos:6379 (LI
 
 ## 九、使用RDM连接Redis时出现“拒绝连接错误”
 
-> 修改`etc/redis.conf 文件。
+> 修改`etc/redis.conf` 文件。
 
 `bind 127.0.0.1`
 
