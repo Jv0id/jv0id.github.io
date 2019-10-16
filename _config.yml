@@ -1,6 +1,7 @@
 # main text of home
 name: 夏潇熙
 bio: 知我者谓我心忧 不知我者谓我何求
+title: Memories.toString
 
 # twitter summary info
 description: A blog about technology
@@ -36,7 +37,7 @@ disqus:
 # if you don't have any of social below, comment the line
 facebook: 100042063586699
 twitter: jjv0id
-google: jv0id
+#google: jv0id
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
