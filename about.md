@@ -16,6 +16,6 @@ layout: page
 * email：<jp0id@foxmail.com>
 
 ## 本站
-* <https://8void.cn/>
 
 * 心血来潮时记录的笔记。 ~欢迎访问~
+* <https://8void.cn/>
