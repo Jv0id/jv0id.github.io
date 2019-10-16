@@ -37,7 +37,6 @@ disqus:
 # if you don't have any of social below, comment the line
 facebook: 100042063586699
 twitter: jjv0id
-#google: jv0id
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
@@ -56,17 +55,17 @@ email: jiangp1988@gmail.com
 
 #authors:
 #    johndoe:
-#        name: 夏潇熙
+#        name: xxx
 #        bio: 知我者谓我心忧 不知我者谓我何求
 #        external-image: false
 #        picture: assets/images/profile.jpg
-#        twitter: jjv0id
+#        twitter: xxxx
 #    jamesfoster:
-#        name: 夏潇熙
+#        name: xxx
 #        bio: 知我者谓我心忧 不知我者谓我何求
 #        external-image: false
 #        picture: assets/images/james.jpg
-#        twitter: jjv0id
+#        twitter: xxxx
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
