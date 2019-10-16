@@ -1,5 +1,5 @@
 ---
-title: "Xshell ssh连接虚拟机慢解决方法 使用yum提示Error: rpmdb open failed"
+title: "XshellSSH连接虚拟机慢解决方法 使用yum提示Error: rpmdb open failed"
 layout: post
 date: 2019-10-16 14:30
 headerImage: false
@@ -11,6 +11,7 @@ category: blog
 author: 夏潇熙
 description: Xshell ssh连接虚拟机慢解决方法 使用yum提示Error: rpmdb open failed
 ---
+
 
 ## Xshell ssh连接虚拟机慢解决方法
 
