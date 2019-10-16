@@ -12,10 +12,10 @@ layout: page
 
 ## 联系我
 
-* QQ: 125686687
-* email：<jiangp1988@gmail.com>
+* telegram: [jp0id](https://t.me/jp0id){:target="_blank"}
+* email：<jp0id@foxmail.com>
 
 ## 本站
 * <https://8void.cn/>
 
-* 自己平时记录的笔记，部分来自网络。 ~欢迎访问~
+* 心血来潮时记录的笔记。 ~欢迎访问~
