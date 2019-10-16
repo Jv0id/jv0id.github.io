@@ -1,3 +1,5 @@
+# 博客地址：https://8void.cn
+
 ## What has inside
 
 - [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
@@ -27,7 +29,7 @@ If you want to test locally on your machine, do the following steps also:
 You must fill some informations on `_config.yml` to customize your site.
 
 ```
-name: John Doe
+name: Your name
 bio: 'A Man who travels the world eating noodles'
 picture: 'assets/images/profile.jpg'
 ...

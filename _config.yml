@@ -51,21 +51,21 @@ google: jv0id
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: jv0id@foxmail.com
+email: jiangp1988@gmail.com
 
-authors:
-    johndoe:
-        name: 夏潇熙
-        bio: 知我者谓我心忧 不知我者谓我何求
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: jjv0id
-    jamesfoster:
-        name: 夏潇熙
-        bio: 知我者谓我心忧 不知我者谓我何求
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jjv0id
+#authors:
+#    johndoe:
+#        name: 夏潇熙
+#        bio: 知我者谓我心忧 不知我者谓我何求
+#        external-image: false
+#        picture: assets/images/profile.jpg
+#        twitter: jjv0id
+#    jamesfoster:
+#        name: 夏潇熙
+#        bio: 知我者谓我心忧 不知我者谓我何求
+#        external-image: false
+#        picture: assets/images/james.jpg
+#        twitter: jjv0id
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
