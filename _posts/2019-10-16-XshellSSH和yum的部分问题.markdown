@@ -9,7 +9,7 @@ tag:
 - yum
 category: blog
 author: 夏潇熙
-description: Xshell ssh连接虚拟机慢解决方法 使用yum提示Error: rpmdb open failed
+description: Xshell ssh连接虚拟机慢解决方法 使用yum提示Error rpmdb open failed
 ---
 
 
