@@ -7,6 +7,7 @@ tag:
 - ssr
 - 一键安装
 - 翻墙
+- shadowsocks
 category: blog
 author: 夏潇熙
 description: shadowsocks各系统一键安装脚本
