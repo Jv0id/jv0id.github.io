@@ -13,7 +13,7 @@ layout: page
 ## 联系我
 
 * telegram: [jp0id](https://t.me/jp0id){:target="_blank"}
-* email：<jp0id@foxmail.com>
+* email：<8void@8void.club>
 
 ## 本站
 
