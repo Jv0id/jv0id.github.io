@@ -77,6 +77,11 @@ echo -e "\033[31m数据库安装完成,你的数据库密码为:Mysql@123(已开
 mysql 5.7 一键安装脚本
 
 ```bash
+#!/bin/bash
+
+echo "begin install mysql 5.7"
+sleep 3
+
 sudo rpm -ivh https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
 sudo yum -y install mysql-community-server
 systemctl start mysqld
