@@ -1,9 +1,9 @@
 # Basic
-title: JP
-subtitle: Memories.toString
+title: Memories.toString
+#subtitle: Memories.toString
 description: 知我者谓我心忧 不知我者谓我何求
 # 头像里面的标题
-avatarTitle: JP
+avatarTitle: 8void.cn
 # 头像里面的描述
 avatarDesc: Memories.toString
 url: "https://8void.cn"
@@ -46,11 +46,11 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    title: 文章概要
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}
+    - {title: 文章索引, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于我, description: about, url: '/about'}
 
