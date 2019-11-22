@@ -524,7 +524,7 @@ img::-moz-selection {
     width: 100%;
     max-width: none;
     height: 100%;
-    /*background: url(/images/background-cover.bak.jpg) top left no-repeat #666666;*/
+    background: url(/images/background-cover.bak.jpg) top left no-repeat #666666;
     background-size: cover; }
 
   .panel-cover--collapsed {
@@ -737,9 +737,9 @@ img::-moz-selection {
     display: inline-block;
     position: relative;
     width: 100%;
-    border-color: #666;
-    color: #666;
-    /*opacity: .8; */
+    border-color: #ffffff;
+    color: #ffffff;
+    opacity: .8;
   }
 
   .navigation__item a:hover {
