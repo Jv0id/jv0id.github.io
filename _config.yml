@@ -53,7 +53,6 @@ nav:
     - {title: 文章索引, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于我, description: about, url: '/about'}
-    - {title: 网站收藏, description: coll, url: '/coll'}
 
 
 # Pagination
