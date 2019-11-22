@@ -1,120 +1,63 @@
-# main text of home
-name: JP
-bio: 知我者谓我心忧 不知我者谓我何求
-title: Memories.toString
+# Basic
+title: JP
+subtitle: Memories.toString
+description: 知我者谓我心忧 不知我者谓我何求
+# 头像里面的标题
+avatarTitle: JP
+# 头像里面的描述
+avatarDesc: Memories.toString
+url: "https://8void.cn"
 
-# twitter summary info
-description: A blog about technology
+# Comment
+comment:
+    disqus: jiang
+    # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
+    # uyan: 2143225  # 有言id,登录有言官网申请
 
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: assets/images/profile.jpg
+# Social
+social:
+    twitter: jjv0id
+    mail: 8void@8void.club
 
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: false
-resume-external: true
-resume-url: https://google.com/?q=my+resume
 
-url: https://8void.cn
-# your url: http://USERNAME.github.io
+# 百度统计
+# 使用博客模板请去掉或者更换 id
+baidu:
+    id: xxxx
 
-permalink: /:title/
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: xxxx
+    host: auto
 
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
 
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
-# if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: #mydisqus # enter this from your disqus account
-  categories: #[blog, project] # only show disqus for posts that have these categories
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
 
-# if you don't have any of social below, comment the line
-facebook: 100042063586699
-twitter: jjv0id
-# instagram: myinstagram
-# pinterest: mypinterest
-# linkedin: mylinkedin
-# youtube: myyoutube
-# spotify: myspotify
-# github: mygithub
-# gitlab: mygitlab
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
-# medium: medium
-# vimeo: myvimeo
-# lanyrd: mylanyrd
-email: 8void@8void.club
+textColor: #FF0000
 
-#authors:
-#    johndoe:
-#        name: xxx
-#        bio: 知我者谓我心忧 不知我者谓我何求
-#        external-image: false
-#        picture: assets/images/profile.jpg
-#        twitter: xxxx
-#    jamesfoster:
-#        name: xxx
-#        bio: 知我者谓我心忧 不知我者谓我何求
-#        external-image: false
-#        picture: assets/images/james.jpg
-#        twitter: xxxx
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
 
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: large
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
 
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 关于我, description: about, url: '/about'}
 
-# if you don't need projects, comment the *projects* configs below
-projects: false
 
-# if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
 
-# do you want to show the "read time" of the posts?
-read-time: true
 
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: true
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
-
-# show author block at the end of a post ?
-show-author: true
-
-# do you want some animations?
-animation: true
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-admin
-
-jekyll-mentions:
-    base_url: https://github.com
-
-compress_html:
-    ignore:
-        envs:
-        - development
-        - stage
-
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
