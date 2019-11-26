@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "linux screen 命令详解"
-date: 2019-11-26 14:117:06 
+date: 2019-11-26 14:17:06 
 description: "linux screen 命令详解"
 tag: linux screen
 ---
