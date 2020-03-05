@@ -6,7 +6,7 @@
 
 ## 联系我
 
-* telegram: [坏得很的糟老头子](https://t.me/yum_install){:target="_blank"}
+* telegram: [坏得很的糟老头子](https://t.me/yum_install)
 * email：<admin@365ml.ml>
 
 ## 本站
