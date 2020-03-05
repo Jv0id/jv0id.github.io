@@ -6,10 +6,10 @@
 
 ## 联系我
 
-* telegram: [jp0id](https://t.me/jp0id)
-* email：<8void@8void.club>
+* telegram: [坏得很的糟老头子](https://t.me/yum_install){:target="_blank"}
+* email：<admin@365ml.ml>
 
 ## 本站
 
-* 心血来潮时记录的笔记。 欢迎访问
+* 部分资料来自网络。 ~欢迎访问~
 * <https://8void.cn/>
