@@ -10,7 +10,7 @@ layout: page
 
 ## 联系我
 
-* telegram: [jp0id](https://t.me/jp0id){:target="_blank"}
+* telegram: [jp0id](https://t.me/yum_install){:target="_blank"}
 * email：<admin@365ml.ml>
 
 ## 本站
