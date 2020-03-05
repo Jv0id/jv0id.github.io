@@ -11,6 +11,7 @@ layout: page
 ## 联系我
 
 * telegram: [坏得很的糟老头子](https://t.me/yum_install){:target="_blank"}
+* twitter: [坏得很的糟老头子](https://twitter.com/jp0id){:target="_blank"}
 * email：<admin@365ml.ml>
 
 ## 本站
