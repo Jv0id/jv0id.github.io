@@ -1,16 +1,16 @@
 # Basic
-title: Memories.toString
+title: Technology.toString
 #subtitle: Memories.toString
 description: 知我者谓我心忧 不知我者谓我何求
 # 头像里面的标题
 avatarTitle: 8void.cn
 # 头像里面的描述
-avatarDesc: Memories.toString
+avatarDesc: Technology.toString
 url: "https://8void.cn"
 
 # Comment
 comment:
-    disqus: memories-tostring
+    disqus: Technology-tostring
     # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
     # uyan: 2143225  # 有言id,登录有言官网申请
 
