@@ -8,7 +8,7 @@
 
 * telegram: [坏得很的糟老头子](https://t.me/yum_install)
 * twitter: [坏得很的糟老头子](https://twitter.com/jp0id)
-* email：<admin@365ml.ml>
+* email：<jiangp@fusionskye.com>
 
 ## 本站
 

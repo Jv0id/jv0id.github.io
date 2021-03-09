@@ -12,7 +12,7 @@ layout: page
 
 * telegram: [J.P](https://t.me/yum_install){:target="_blank"}
 * twitter: [J.P](https://twitter.com/jp0id){:target="_blank"}
-* email：<admin@365ml.ml>
+* email：<jiangp@fusionskye.com>
 
 ## 本站
 
