@@ -10,8 +10,8 @@ layout: page
 
 ## 联系我
 
-* telegram: [J.P](https://t.me/yum_install){:target="_blank"}
-* twitter: [J.P](https://twitter.com/jp0id){:target="_blank"}
+* telegram: [ᑋᵉᑊᑊᵒ ᵕ̈ ᑋᵉᑊᑊᵒ](https://t.me/yum_install){:target="_blank"}
+* twitter: [J.P🇨🇳 -互fo💯](https://twitter.com/jp0id){:target="_blank"}
 * email：<jiangp@fusionskye.com>
 
 ## 本站
