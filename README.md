@@ -6,8 +6,8 @@
 
 ## 联系我
 
-* telegram: [坏得很的糟老头子](https://t.me/yum_install)
-* twitter: [坏得很的糟老头子](https://twitter.com/jp0id)
+* telegram: [J.P](https://t.me/JUST_Jiang)
+* twitter: [J.P](https://twitter.com/jp0id)
 * email：<jiangp@fusionskye.com>
 
 ## 本站
