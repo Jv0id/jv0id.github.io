@@ -8,7 +8,7 @@
 
 * telegram: [J.P](https://t.me/JUST_Jiang)
 * twitter: [J.P](https://twitter.com/jp0id)
-* email：<jiangp@fusionskye.com>
+* email：<jiang.p.1988@pm.me>
 
 ## 本站
 
