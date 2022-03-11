@@ -12,8 +12,8 @@ layout: page
 
 * telegram: [J.Pㅤ❁҉҉҉҉҉҉҉҉](https://t.me/JUST_JIANG){:target="_blank"}
 * twitter: [J.P🇨🇳 -互fo💯](https://twitter.com/jp0id){:target="_blank"}
-* email1：<jp@8void.com>
-* email2：<jiang.p.1988@pm.me>
+* 意见或建议：<sugguset@8void.com>
+* 联系我：<jiang.p.1988@pm.me> 或者 <jp@8void.com>
 
 ## 本站
 
