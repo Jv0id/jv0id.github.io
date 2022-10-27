@@ -10,7 +10,7 @@ layout: page
 
 ## 联系我
 
-* telegram: [J.Pㅤ❁҉҉҉҉҉҉҉҉](https://t.me/JUST_JIANG){:target="_blank"}
+* telegram: [J.Pㅤ❁҉҉҉҉҉҉҉҉](https://t.me/CallJP_bot){:target="_blank"}
 * twitter: [J.P🇨🇳 -互fo💯](https://twitter.com/jp0id){:target="_blank"}
 * 意见或建议：<sugguset@8void.com>
 * 联系我：<jiang.p.1988@pm.me> 或者 <jp@8void.com>
