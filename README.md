@@ -13,4 +13,4 @@
 ## 本站
 
 * 部分资料来自网络。 ~欢迎访问~
-* <https://8void.cn/>
+* <https://8void.com.cn/>

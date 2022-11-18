@@ -20,5 +20,5 @@ layout: page
 * 部分资料来自网络。 ~欢迎访问~
 * 该博客使用github page和Jekyll搭建。
 * 如果您认为本站的文章有侵犯版权请及时联系我，并出示版权证明，我将在24小时内删除。
-* <https://8void.cn/>
+* <https://8void.com.cn/>
 * 博主的另一个博客：[Memories.toString](https://8void.com){:target="_blank"}

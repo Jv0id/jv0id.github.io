@@ -22,11 +22,11 @@ description: Markdown语法:在新窗口新标签页中打开
 
  - 方括号后加小括号，小括号里写链接地址。
 
-`[example](http://8void.cn)`
+`[example](http://8void.com.cn)`
 
  效果如下：
 
-[example](http://8void.cn)
+[example](http://8void.com.cn)
 
 
 
@@ -35,11 +35,11 @@ description: Markdown语法:在新窗口新标签页中打开
 
  - 如果无所谓链接的名字的话，可以直接使用尖括号把链接括起来。
 
-`<http://8void.cn>`
+`<http://8void.com.cn>`
 
  - 效果如下：
 
-<http://8void.cn>
+<http://8void.com.cn>
 
 ### 让超链接在新窗口(新标签页)中打开
 
@@ -47,16 +47,16 @@ description: Markdown语法:在新窗口新标签页中打开
 
 - 改进后的方法一:
 
-`[example](http://8void.cn){:target="_blank"}`
+`[example](http://8void.com.cn){:target="_blank"}`
 
 效果如下：
 
-[example](http://8void.cn){:target="_blank"}
+[example](http://8void.com.cn){:target="_blank"}
 
 - 改进后的方法二:
 
-`<http://8void.cn>{:target="_blank"}`
+`<http://8void.com.cn>{:target="_blank"}`
 
 效果如下：
 
-<http://8void.cn>{:target="_blank"}
+<http://8void.com.cn>{:target="_blank"}

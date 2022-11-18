@@ -23,7 +23,7 @@ description: GitHub Pages 对自定义域名支持 HTTPS
 
 * 操作流程
 
-本文以项目 [https://github.com/jv0id/jv0id.github.io](https://github.com/jv0id/jv0id.github.io) 和域名 [8void.cn](https://8void.cn){:target="_blank"} 为例。
+本文以项目 [https://github.com/jv0id/jv0id.github.io](https://github.com/jv0id/jv0id.github.io) 和域名 [8void.com.cn](https://8void.com.cn){:target="_blank"} 为例。
 
 操作流程：
 
@@ -49,17 +49,17 @@ GitHub Pages 项目设置
 
 www 等任意值	CNAME	jv0id.github.io
 
-上面提供了2个例子，第一个是你想使用 8void.cn 来访问你的博客，第二个就是 www.8void.cn 来访问，这里要和 GitHub Pages 项目设置 里的 CNAME 文件的内容要对应，后面会说。
+上面提供了2个例子，第一个是你想使用 8void.com.cn 来访问你的博客，第二个就是 www.8void.com.cn 来访问，这里要和 GitHub Pages 项目设置 里的 CNAME 文件的内容要对应，后面会说。
 
-解析生效后，可以尝试访问来查看是否解析成功，直接访问 [http://8void.cn](http://8void.cn) ，如果是 Github Pages 的 404 界面，说明解析成功了。
+解析生效后，可以尝试访问来查看是否解析成功，直接访问 [http://8void.com.cn](http://8void.com.cn) ，如果是 Github Pages 的 404 界面，说明解析成功了。
 
 * Github Pages 项目配置
 
 大家可以参考 我的项目 ，它的根目录里有个 `CNAME` 文件，文件的内容是和上面的域名解析对应的。
 
-即如果使用 @ 值 CNAME 到 `jv0id.github.io`，则文件的内容为 `8void.cn` ;
+即如果使用 @ 值 CNAME 到 `jv0id.github.io`，则文件的内容为 `8void.com.cn` ;
 
-如果使用 `www` 任意值 `CNAME` 到 `jv0id.github.io`，则文件的内容应为 `www.8void.cn` 。
+如果使用 `www` 任意值 `CNAME` 到 `jv0id.github.io`，则文件的内容应为 `www.8void.com.cn` 。
 
 添加完成后，项目根目录有了此文件，下面去项目的 settings 看一下。
 
@@ -68,11 +68,11 @@ www 等任意值	CNAME	jv0id.github.io
 > Your site is published at http://likfe.com/
 Custom domain
 Custom domains allow you to serve your site from a domain other than jv0id.github.io. Learn more.
-8void.cn
+8void.com.cn
 
 正常情况下是这样了，你勾选 `enforce HTTPS` 开启强制跳转到 HTTPS 即可，相应的`Github Pages` 的内容会变成：
 
-> Your site is published at https://8void.cn/
+> Your site is published at https://8void.com.cn/
 
 那么如果如果之前已经开启了自定义域名， `enforce HTTPS` 无法勾选且怎么办？
 
@@ -82,10 +82,10 @@ Custom domains allow you to serve your site from a domain other than jv0id.githu
 
 在 `Custom domain` 中的填入之前清空的值，我这里是 likfe.com ，填入后点击保存；
 
-尝试在浏览器里主动访问 `https://8void.cn` ，地址要根据自己的情况，注意协议类型是 https，正确情况下是能正常访问的；
+尝试在浏览器里主动访问 `https://8void.com.cn` ，地址要根据自己的情况，注意协议类型是 https，正确情况下是能正常访问的；
 
 刷新项目设置页，如果 `enforce HTTPS` 可勾选，勾选即可；
 
 如果 `enforce HTTPS` 不可勾选，并且提示 `Not yet available for your site because the certificate has not finished being issued`，说明证书尚未申请完成，等待一天即可。
 
-注意，如果使用 Chrome 访问 `https://8void.cn` 地址栏左侧仍未出现小绿锁，请检查自己的网站引用的资源文件有没有使用了 http 协议，请替换成相应的 https 资源。
+注意，如果使用 Chrome 访问 `https://8void.com.cn` 地址栏左侧仍未出现小绿锁，请检查自己的网站引用的资源文件有没有使用了 http 协议，请替换成相应的 https 资源。
