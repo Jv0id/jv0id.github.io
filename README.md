@@ -6,7 +6,7 @@
 
 ## 联系我
 
-* telegram: [J.P](https://t.me/JUST_Jiang)
+* telegram: [J.P](https://t.me/jp0id)
 * twitter: [J.P](https://twitter.com/jp0id)
 * email：<jp@8void.com>
 
